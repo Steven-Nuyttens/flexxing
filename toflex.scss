@@ -1,0 +1,48 @@
+body {
+    header {
+        .topnavigationbar {
+            background-color: grey;
+            overflow: hidden;
+            a {
+                float: center;
+                text-align: center;
+                padding: 30px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+            a:hover {
+                background-color: white;
+                color: black;
+            }
+            a.active {
+                background-color: black;
+                color: white;
+            }
+        }
+        h1 {
+            text-align: center;
+        }
+    }
+    article.subjects {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        &#git {
+            background-image: url(https://miro.medium.com/max/380/1*OvMsmQs0Rzs_ScuiTsuWjw.png);
+            background-repeat: none;
+        }
+        &#cl {}
+        &#html {}
+        &#css {}
+        &#sass {}
+        &#mediaqueries {}
+        h3 {
+            text-align: center;
+        }
+    }
+    footer {
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+    }
+}

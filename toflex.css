@@ -1,0 +1,32 @@
+body header .topnavigationbar {
+  background-color: grey;
+  overflow: hidden; }
+  body header .topnavigationbar a {
+    float: center;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 17px; }
+  body header .topnavigationbar a:hover {
+    background-color: white;
+    color: black; }
+  body header .topnavigationbar a.active {
+    background-color: black;
+    color: white; }
+body header h1 {
+  text-align: center; }
+body article.subjects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+  body article.subjects#git {
+    background-image: url(https://miro.medium.com/max/380/1*OvMsmQs0Rzs_ScuiTsuWjw.png);
+    background-repeat: none; }
+  body article.subjects h3 {
+    text-align: center; }
+body footer {
+  text-align: center;
+  bottom: 0;
+  width: 100%; }
+
+/*# sourceMappingURL=toflex.css.map */
